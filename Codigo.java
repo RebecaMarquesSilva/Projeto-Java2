@@ -6,13 +6,13 @@ public class Codigo {
 
 	public static void main(String[] args) {
 		
-		System.out.println("=====================================================");
-		System.out.println("|\t \t   VOLUNTARIE-SE                    |");
-		System.out.println("|\t     Juntos somos mais fortes               |");
-		System.out.println("=====================================================");
+        System.out.println("=====================================================");
+	System.out.println("|\t \t   VOLUNTARIE-SE                    |");
+	System.out.println("|\t     Juntos somos mais fortes               |");
+	System.out.println("=====================================================");
 		
 		
-		Scanner entrada = new Scanner(System.in);
+	Scanner entrada = new Scanner(System.in);
         int voluntariar, voluntariarReg, voluntariarSp;
         Norte a5 = new Norte();
         Teste_sul a1 = new Teste_sul();
@@ -24,7 +24,7 @@ public class Codigo {
         Array a8 = new Array(); 
         
         
-        System.out.println("\nVocê gostaria de encontrar uma instituição para se voluntariar? \n1: Sim \n2: Não ");
+        System.out.println("\nVocÃª gostaria de encontrar uma instituiÃ§Ã£o para se voluntariar? \n1: Sim \n2: NÃ£o ");
         voluntariar=entrada.nextInt();
         
         if(voluntariar==1) {
@@ -55,7 +55,7 @@ public class Codigo {
              a7.oeste();
         }
         else {
-             System.out.println("Você digitou um número inválido");
+             System.out.println("VocÃª digitou um nÃºmero invÃ¡lido");
         }
   }
 
@@ -74,14 +74,14 @@ public class Codigo {
                 
         }
         else {
-            System.out.println("Você digitou um numero invalido");
+            System.out.println("VocÃª digitou um numero invalido");
         }
   }
         else if(voluntariar==2) {
         	System.out.println("Muito obrigado por visitar nosso projeto!");
         }
         else {
-            System.out.println("Você digitou um numero invalido");
+            System.out.println("VocÃª digitou um numero invalido");
             
         }
         
